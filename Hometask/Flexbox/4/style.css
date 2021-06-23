@@ -1,0 +1,114 @@
+body {
+    background-color: #C6C6C6;
+    font-size: 26px;
+}
+
+* {
+    margin: 10px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    color: white;
+}
+
+.logo-container {
+    width: 14%; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-container div {
+    width: 150px;
+    height: 50%;
+    background-color: black;
+}
+
+.logo-container .logo {
+    width: 100px;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.menu {
+    width: 55%;
+    background-color: inherit;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+}
+
+.menu div {
+    width: 250px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+section {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+
+.title-item {
+    width: 60%;
+    font-size: 48px;
+}
+
+.circle {
+    width: 30%;
+    border-radius: 50%;
+    background-color: black;
+}
+
+article > div h2, article > div p, h1   {
+    margin-bottom: 40px;
+}
+
+article {
+    font-size: 32px;
+}
+
+.image-container {
+    height: 100%;
+    color: white;
+    font-size: 70px;
+}
+
+.image-container div {
+    width: 400px;
+    height: 400px;
+    margin-bottom: 20px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.short-article {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.coub-item {
+    height: 100px;
+    width: 100px;
+    background-color: black;
+}
+
+.article-title-container {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+}
+
+.article-title-item {
+    width: 65%;
+}

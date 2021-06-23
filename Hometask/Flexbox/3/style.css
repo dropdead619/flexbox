@@ -1,0 +1,65 @@
+body {
+    background-color: #C6C6C6;
+    color: white;
+}
+
+header div {
+    background-color: black;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+}
+
+.logo {
+    width: 250px;
+}
+
+.menu {
+    width: 50%;
+    background-color: inherit;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+}
+
+.menu div {
+     width: 250px;
+     height: 80px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+.title-part div {
+    height: 120px;
+    margin: 80px;
+}
+
+.first-item {
+    width: 50%;
+    background-color: black;
+}
+
+.second-item {
+    width: 60%;
+    background-color: black;
+}
+
+section {
+    display: flex;
+    justify-content: space-around;
+    color: black;
+}
+
+.image {
+    height: 430px;
+    background-color: black;
+}
+
+section > div {
+    width: 430px;
+    font-size: 25px;
+}
